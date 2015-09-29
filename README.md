@@ -2,6 +2,8 @@
 
 A Clojure library designed to provide a user [OAuthentication] (http://oauth.net/2/).
 
+Link on [Clojars] (https://clojars.org/org.clojars.cwolfe/oauth-client).
+
 #Requirements
 * Client ID
 * Client Secret
