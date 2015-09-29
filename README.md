@@ -28,19 +28,19 @@ run lein deps
 **Step 1:**
 * Create a agent to access the registered application.
 
-      (def agent
-        (oauth/build-oauth <client-id>
-                           <client-secret>
-                           <username>
-                           <password>
-                           <security-token>))
+    (def agent
+      (oauth/build-oauth <client-id>
+                         <client-secret>
+                         <username>
+                         <password>
+                         <security-token>))
   **remember the security-token is optional**.
 
 **Step 2:**
 * Send the agent to fetch a authorization token.
 
-      (def authorization-token
-        (oauth/get-access-token agent <request-url>))
+    (def authorization-token
+      (oauth/get-access-token agent <request-url>))
 
 
 ## License
