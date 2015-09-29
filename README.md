@@ -18,7 +18,7 @@ run lein deps
 
 # Client OAuth Example
 
-    (require [oauth-client.core :as oa])
+    (require [oauth-client.core :as oauth])
 
 Prerequisites:
 * registered application with thrid party
@@ -27,14 +27,18 @@ Step 1:
 Create a agent to access the registered application.
 
     (def agent
-      (build-oauth *client-id* *client-secret* *username* *password* *security-token*))
+      (oauth/build-oauth <client-id>
+                         <client-secret>
+                         <username>
+                         <password>
+                         <security-token>))
   **remember the security-token is optional**.
 
 Step 2:
 Send the agent to fetch a authorization token.
 
     (def authorization-token
-      (get-access-token agent *request-url*))
+      (get-access-token agent <request-url>))
 
 
 ## License
