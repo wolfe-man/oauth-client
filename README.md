@@ -38,7 +38,7 @@ Step 2:
 Send the agent to fetch a authorization token.
 
     (def authorization-token
-      (get-access-token agent <request-url>))
+      (oauth/get-access-token agent <request-url>))
 
 
 ## License
