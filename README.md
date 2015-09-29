@@ -4,21 +4,21 @@ A Clojure library designed to provide a user [OAuthentication] (http://oauth.net
 
 Link on [Clojars] (https://clojars.org/org.clojars.cwolfe/oauth-client).
 
-#Requirements
+# Requirements
 - Client ID
 - Client Secret
 - Username
 - Password
 - Security Key (optional)
 
-## Usage
+# Usage
 
-#Installing
+## Installing
 
 Add [org.clojars.cwolfe/oauth-client "1.0.0-SNAPSHOT"] to your project.clj file as a Leinigen dependency to get the latest release.
 run lein deps
 
-# Client OAuth Example
+## Client OAuth Example
 
     (require [oauth-client.core :as oauth])
 
