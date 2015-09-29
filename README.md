@@ -34,6 +34,7 @@ run lein deps
                          <username>
                          <password>
                          <security-token>))
+
   **remember the security-token is optional**
 
 **Step 2:**
