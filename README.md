@@ -22,10 +22,10 @@ run lein deps
 
     (require [oauth-client.core :as oauth])
 
-Prerequisites:
+**Prerequisites:**
 * registered application with thrid party
 
-Step 1:
+**Step 1:**
 Create a agent to access the registered application.
 
     (def agent
@@ -36,7 +36,7 @@ Create a agent to access the registered application.
                          <security-token>))
   **remember the security-token is optional**.
 
-Step 2:
+**Step 2:**
 Send the agent to fetch a authorization token.
 
     (def authorization-token
