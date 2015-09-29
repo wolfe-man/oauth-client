@@ -5,11 +5,11 @@ A Clojure library designed to provide a user [OAuthentication] (http://oauth.net
 Link on [Clojars] (https://clojars.org/org.clojars.cwolfe/oauth-client).
 
 #Requirements
-* Client ID
-* Client Secret
-* Username
-* Password
-* Security Key (optional)
+- Client ID
+- Client Secret
+- Username
+- Password
+- Security Key (optional)
 
 ## Usage
 
@@ -34,7 +34,7 @@ run lein deps
                          <username>
                          <password>
                          <security-token>))
-  **remember the security-token is optional**.
+  **remember the security-token is optional**
 
 **Step 2:**
 - Send the agent to fetch a authorization token.
