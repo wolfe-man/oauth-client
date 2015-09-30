@@ -11,8 +11,7 @@
                :password (str "password=" password)}]
     (if (nil? security-token)
       oauth
-      (merge {:security-token (first security-token)} oauth)
-      )))
+      (merge {:security-token (first security-token)} oauth))))
 
 (defn get-access-token
   [build-oauth request-url]
@@ -26,6 +25,4 @@
           (client/post %)
           (:body %)
           (json/read-str % :key-fn keyword)
-          (:access_token %)
-          )
-    ))
+          (:access_token %))))
