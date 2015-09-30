@@ -1,4 +1,4 @@
-(defproject org.clojars.cwolfe/oauth-client "1.1.0"
+(defproject org.clojars.cwolfe/oauth-client "1.1.0-SNAPSHOT"
   :description "A very simple Clojure library designed to provide a user OAuthentication aka OAuth"
   :url "http://example.com/FIXME"
   :license {:name "Eclipse Public License"
