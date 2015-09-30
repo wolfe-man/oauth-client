@@ -15,8 +15,7 @@ Link on [Clojars] (https://clojars.org/org.clojars.cwolfe/oauth-client).
 
 ## Installing
 
-Add [org.clojars.cwolfe/oauth-client "1.0.0-SNAPSHOT"] to your project.clj file as a Leinigen dependency to get the latest release.
-run lein deps
+[![Clojars Project](http://clojars.org/org.clojars.cwolfe/oauth-client/latest-version.svg)](http://clojars.org/org.clojars.cwolfe/oauth-client)
 
 ## Client OAuth Example
 ```clojure
