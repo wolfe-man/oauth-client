@@ -22,7 +22,7 @@ Link on [Clojars] (https://clojars.org/org.clojars.cwolfe/oauth-client).
     (require [oauth-client.core :as oauth])
 ```
 **Prerequisites:**
-- registered application with thrid party
+- Register application with third party
 
 **Step 1:**
 - Create a agent to access the registered application.
